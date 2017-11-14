@@ -4,7 +4,7 @@
   "description": "MongoDB with ExpressAPI using Mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec 'mocha --recursive -R min'"
+    "test": "SET NODE_ENV=test&& nodemon --exec mocha --recursive -R min"
   },
   "author": "Mark",
   "license": "ISC",
