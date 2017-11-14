@@ -4,13 +4,14 @@
   "description": "MongoDB with ExpressAPI using Mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon --exec 'mocha --recursive -R min'"
   },
   "author": "Mark",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
     "mocha": "^4.0.1",
-    "mongoose": "^4.13.2"
+    "mongoose": "^4.13.2",
+    "supertest": "^3.0.0"
   }
 }
